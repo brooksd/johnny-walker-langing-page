@@ -41,3 +41,23 @@ body, html {
     text-decoration: underline;
     color: red;
 }
+
+.prem-img {
+    width: 500px;
+    height: 500px;
+}
+
+.reg-img {
+    width: 250px;
+    height: 250px;
+}
+
+.premium {
+    display: flex;
+    text-align: center;
+}
+
+.regular {
+    display: flex;
+    text-align: center;
+}
