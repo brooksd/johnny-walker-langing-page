@@ -44,6 +44,7 @@ body, html {
     color: red;
 }
 
+<<<<<<< HEAD
 .content {
     display: flex;
     flex-direction: row;
@@ -60,5 +61,24 @@ body, html {
 
 .content_h2 {
     color: rgb(199, 195, 195);
+=======
+.prem-img {
+    width: 500px;
+    height: 500px;
+}
+
+.reg-img {
+    width: 250px;
+    height: 250px;
+}
+
+.premium {
+    display: flex;
+    text-align: center;
+}
+
+.regular {
+    display: flex;
+>>>>>>> 0cdecd3ee41328ce91c50d1231cc367b91eff1ad
     text-align: center;
 }
