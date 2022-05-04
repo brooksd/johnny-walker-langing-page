@@ -1,5 +1,6 @@
 body, html {
     height: 100%;
+    margin: 0;
 }
 
 .container {
@@ -7,7 +8,7 @@ body, html {
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
-    background-color: blue;
+
     height: 100px;
     align-items: center;
     color: white;
@@ -29,4 +30,14 @@ body, html {
     left: 50%;
     transform: translate(-50%);
     color: white;
+}
+
+.nav_info {
+    cursor: pointer;
+
+}
+
+.nav_info:hover {
+    text-decoration: underline;
+    color: red;
 }
